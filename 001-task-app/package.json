@@ -1,0 +1,16 @@
+{
+  "name": "001-task-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "if-env TYPE-server && (cd server && npm install) || (cd client && npm install)",
+    "server": "nodemon ./server/src/server.js",
+    "client" "cd client && npm start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "if-env": "^1.0.4"
+  }
+}

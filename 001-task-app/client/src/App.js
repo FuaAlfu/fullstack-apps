@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import ListHolder from './components/ListHolder'
 import './App.css'
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
 
   return (
     <div className="App">
-      
+      <ListHolder listName={'tick list'}/>
     </div>
   )
 }

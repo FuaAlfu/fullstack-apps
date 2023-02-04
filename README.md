@@ -13,3 +13,8 @@ yarn create vite app-name --template react
 ```
 npm init -y
 ```
+
+## create go app with go modules
+```
+go mod init www.github.come/example/my-app
+```
